@@ -1,0 +1,5 @@
+experiment_1:
+  datasets: ["syntactic_ambiguity", "pragmatic_inference"]
+  models: ["mistral-7b", "llama-3-8b"]
+  manipulations: ["dropout_increase", "layer_freeze"]
+  metrics: ["perplexity", "surprisal"]
